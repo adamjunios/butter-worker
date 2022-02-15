@@ -1,0 +1,249 @@
+<style>
+
+* 
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial;
+    margin:0px;
+    background-image : url("../gal/bk.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+                /* pilihan h*/
+
+                h1
+                {
+                	font-size : 35px;
+                }
+                h2
+                {
+                	font-size : 14px;
+                }
+                h3
+                {
+                	font-size : 50px;
+                }
+                h4{
+                	font-size : 20px;
+                }
+
+/*konten*/                
+a
+{
+	text-decoration: none;
+}
+.kotakAtas 
+{
+	height : 20%;
+    background-color: transparent
+    padding-top:10px;
+    margin-top: 5%;
+	text-align : center;
+	color : white;
+	padding-left : 0px;
+	padding-right : 0px;
+	width : 100%;
+}
+.kotakBawah
+{
+	height : 20%;
+    background-0color: transparent;
+    padding-top: 10px;
+	text-align : center;
+	color : white;
+    padding-bottom: 2px;
+	margin-bottom: 0px;
+}
+.kotakTengah 
+{
+	position : center;
+	height : 45%;
+    background-color: transparent;
+	padding : 5px;
+	text-align : center;
+	color : white;
+}
+.kotakAtas:hover, 
+.kotakTengah:hover, 
+.kotakBawah:hover
+{
+	background-color: rgba(61, 106, 137, 0.33);
+    transition: 1.5s;
+}
+.kotakAtas a
+{
+	text-decoration:none;
+	color : white;
+}
+
+
+                    /* modal login*/
+
+                    /* avatar*/
+                    .imgcontainer 
+                    {
+                        text-align: center;
+                        margin:12px 0 12px 0;
+                        position: relative;
+                    }
+                    img.avatar 
+                    {
+                        max-width: 150px;
+                        max-height :150px;
+                        border-radius: 50%;
+                    }
+                    /*form isi login*/
+                    input[type=text], 
+                    input[type=password] 
+                    {
+                        width: 100%;
+                        padding: 15px;
+                        margin: 5px 0 22px 0;
+                        display: inline-block;
+                        border: none;
+                        background: #f1f1f1;
+                        font-size : 16px;
+                    }
+                    form
+                    {
+                        font-size : 18px;
+                    } 
+                    /* background input focus */
+                    input[type=text]:focus, 
+                    input[type=password]:focus 
+                    {
+                        background-color: #ddd;
+                        outline: none;
+                    }
+                    /* Padding Utama */
+                    .containerH 
+                    {
+                        max-width: 100%;
+                        position: relative;
+                        margin-top :5px;
+                        margin-left :20%;
+                        margin-right :20%;
+                        margin-bottom :10%;
+                    }
+                    /*  (background) Modal */
+                    .modal 
+                    {
+                        display: none; /* Tersembunyi sebelum di klik */
+                        position: fixed; /* Tetap */
+                        z-index: 1; /* Di Depan */
+                        left: 0;
+                        top: 0;
+                        width: 100%; /* Full  */
+                        height: 100%; /* Full  */
+                        overflow: auto; /* Otomatis Scrollbar */
+                        background-color: #474e5d;
+                        background-color: rgb(0,0,0); /* background utama */
+                        background-color: rgba(0,0,0,0.4); /* transparansi */
+                        padding-top: 50px;
+                    }
+                    /* Modal Konten/Box */
+                    .modal-content 
+                    {
+                        background-color: #fefefe;
+                        margin: 20px auto 40px auto;
+                        border: 1px solid #888;
+                        width: 60%; 
+                        height : 85% auto ;
+                    }
+                    hr 
+                    {
+                        border: 1px solid #f1f1f1;
+                        margin-bottom: 25px;
+                        margin-right: 20%;
+                        margin-left : 20%;
+                    }
+
+
+/* buttons */
+
+
+button 
+{
+    height : 50px;
+    width : 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left :20px;
+    margin-right :20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover 
+{
+    transform: scale(1.3);
+    transition : 0.3s;
+    background-color : #328135;     
+}
+.tombol
+{
+    position : center;
+    width : 40%;
+    height :100px;
+    margin: 8px 0;
+    margin-left : 0px;
+    padding-top : 0px;
+}
+.tombolCL
+{
+    width: 40%;
+    background-color: #f44336;
+    float : right;
+    margin-right: 0px;
+    height: 100px;
+    padding-top : 0px;
+}
+.tombolCL:hover
+{
+    background-color:#BD2C21;
+}
+span.psw 
+{
+    float: right;
+    padding-top: 0px;
+}
+/* Tombol X  */
+.close 
+{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #bdbdbd;
+}
+.close:hover,
+.close:focus 
+{
+    color: #f44336;
+    cursor: pointer;
+}
+.clearfix::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* otomatis responsiv */
+@media screen and (max-width: 300px) 
+{
+    .cancelbtn, .signupbtn 
+    {
+       width: 100%;
+    }
+}
+
+</style>

@@ -1,0 +1,27 @@
+||================================||
+|| TUGAS PWD                      || 
+||                                ||
+|| Nama : Adam Junio Selva	  ||			     	                   		
+|| No	: 1			  ||
+||================================||
+||            X RPL I             ||	
+||     SMK NEGERI 1 WONOSOBO      ||
+||================================||
+
+
+SI KEPEGAWAIAN
+
+AdWorker|
+A Company with Real Worker
+
+System:
+
+1. Login terdiri dari 2, admin dan pegawai, serta ada visitor page untuk tamu.
+2. Hanya ADMIN yang bisa mengubah Menambah,Mengedit/Hapus Data Pegawai,	serta melakukan penggajian pegawai.
+3. ADMIN
+   Username : admin
+   Pass	    : admin
+4. Akun Pegawai ada di table akun
+5. Setiap penambahan pegawai akun pegawai tidak otomatis terbentuk, shingga harus melakukan pendaftaran di homepage
+6. Setiap penambahan pegawai gaji pegawai otomatis NULL(kecuali gaji pokok & tun. keluarga)
+7. Setiap penghapusan pegawai gaji pegawai dan akun otomatis terhapus 		 
